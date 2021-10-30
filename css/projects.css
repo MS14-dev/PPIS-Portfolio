@@ -1,0 +1,43 @@
+.project-div{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 5%;
+}
+.project-div:hover{
+    /* height: 200%; */
+    background: black;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    /* display: none; */
+    animation: projectDivHoverAnimi 1s 1;
+}
+@keyframes projectDivHoverAnimi{
+    25%{
+        transform: translateY(20%);
+        transition: all 0.2s ease;
+    }
+}
+.project-title{
+    color: white;
+    font-family:'Zen Antique', serif;
+    text-align: center;
+}
+.project-description{
+    color: white;
+    font-family:'Zen Antique', serif;
+    text-align: center;
+}
+#project-div-dynamic{
+    background-position: center;
+    background-size: cover;
+}
+#project-description-dynamic{
+    margin-top: 20%;
+}
+#footer-div-projects{
+    background: #e76f51;
+    height: 100%;
+    text-align: center;
+    padding: 2%;
+}

@@ -1,0 +1,181 @@
+/* nav */
+.scroll{
+    background: rgba(0, 0, 0, 0.192);
+}
+nav{
+    background: rgba(0, 0, 0, 0.616);
+}
+
+/* carousel */
+#index-carousel-outer{
+    /* margin-top: 5%; */
+    background-image: linear-gradient(to left ,rgba(0, 0, 0, 0.116),rgba(0, 0, 0, 0.247)), url('../image/carousel_1.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+    animation: carouselAnimi 7s infinite ease-in-out;
+}
+@keyframes carouselAnimi{
+    25%{
+        background-image: linear-gradient(to left ,rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.199)), url('../image/carousel_2.jpg');
+    }
+    50%{
+        background-image: linear-gradient(to left ,rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.185)), url('../image/carousel_3.jpg');
+    }
+}
+#index-carousel-title{
+    font-family: 'Zen Antique', serif;
+    color: white;
+    font-size: 400%;
+    /* text-align: center; */
+    margin-top: 10%;
+    /* border: 5px solid white; */
+}
+#index-carousel-job{
+    font-family: 'Zen Kurenaido', sans-serif;
+    /* text-align: center; */
+    margin-top: 10%;
+    color: white;
+    background-color: #e76f51;
+    font-weight: bolder;
+}
+
+
+/* about */
+#index-about-img{
+    height: 20%;
+}
+#index-about-job-img-div{
+    height: 20vh;
+    background-color: yellow;
+}
+.index-about-dp{
+/* border-radius: 180px; */
+display: none;
+/* height: 50%; */
+/* animation: dpAnimi 3s linear; */
+}
+/* @keyframes dpAnimi{
+    0%{
+        transform: translateX(-100px);
+    }
+} */
+.index-dp{
+display: unset;
+/* border: 5px solid rgb(62, 238, 46); */
+box-shadow: 0 -1px 3px 0 rgba(8, 8, 8, 0.911), 0 1px 2px 0 rgba(0, 0, 0, 0.979);
+border-radius: 180px; 
+/* height: 50%;  */
+animation: dpAnimi2 3s linear;
+
+}
+@keyframes dpAnimi2{
+    0%{
+        transform: translateX(-100px);
+    }
+}
+#index-about-p-wish{
+    /* font-family: 'Zen Kurenaido', sans-serif; */
+    font-weight: bolder;
+    color: #e76f51;
+/* text-align: center; */
+}
+#index-about-p{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+    margin-top: 10%;
+/* text-align: center; */
+}
+#index-about-quote{
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: center;
+    color: #e76f51;;
+    /* background-color: #e76f51; */
+}
+
+/* job */
+#index-gob-image{
+    background-position: center;
+    background-size: cover;
+    margin-top: 5%;
+    height: 40vh;
+    border-bottom-right-radius: 180px;
+}
+@keyframes jobImageAnimi{
+
+}
+.index-job-link{
+    color: black;
+    border: none;
+    background: none;
+    padding: 1%;
+    text-decoration: none;
+    margin-right: 10%;
+}
+.index-job-link-active{
+    color: black;
+    border: none;
+    background: #e76f51;
+    padding: 1%;
+    text-decoration: none;
+    margin-right: 10%;
+}
+.index-job-link:hover{
+    padding: 1%;
+    background: #e76f51;
+    text-decoration: none;
+    margin-right: 10%;
+}
+#index-gob-description{
+    margin-top: 20%;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+    padding-inline: 20%;
+}
+#index-gob-list{
+    margin-top: 20%;
+    color: white;
+    font-weight: bolder;
+}
+
+/* contact */
+.index-contact-link{
+    width: 15%;
+    padding-inline: 1%;
+}
+.index-contact-link:hover{
+    border-radius: 180px;
+    background: #e76f51;
+}
+#index-contact-form{
+    padding: 2%;
+    background:#e76f51 ;
+}
+#index-contact-social-div{
+    padding: 10%;
+    /* align-items: center; */
+    text-align: center;
+}
+
+
+
+/* footer */
+#footer-div{
+    background: black;
+    height: 100%;
+}
+
+
+/* common */
+.index-secsion-title{
+    /* font-family: 'Zen Antique', serif; */
+    color: black;
+    font-weight: bolder;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.index-form-input{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
